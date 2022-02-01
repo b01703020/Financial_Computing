@@ -1,6 +1,6 @@
 //
 //  BinomialTreeModel01.cpp
-//  BinomialTreeModel
+//  BinomialTreeModel01
 //
 //  Created by wu yen sun on 2022/1/28.
 //
@@ -10,9 +10,11 @@
 #include <iomanip>
 #include <cmath>
 using namespace std;
-int main(){
+int main()
+{
     double u = 1.15125, d = 0.86862;
     double s0 = 106.00;
+    
     // compute asset price at node n=3, i=2
     int n = 3;
     int i = 2;
