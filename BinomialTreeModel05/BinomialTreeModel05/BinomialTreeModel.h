@@ -1,12 +1,11 @@
 //
-//  BinomialTree.h
+//  BinomialTreeModel.h
 //  BinomialTreeModel05
 //
-//  Created by wu yen sun on 2022/2/1.
+//  Created by wu yen sun on 2022/2/11.
 //
 
 #pragma once
-
 namespace fre
 {
     //compute risk-neutral probability

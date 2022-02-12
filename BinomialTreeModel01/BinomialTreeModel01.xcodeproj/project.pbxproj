@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C7321B7C27A4F0D3000EBBEA /* BinomialTreeModel01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7321B7A27A4F0D3000EBBEA /* BinomialTreeModel01.cpp */; };
+		C7AD62B927B75281009B1BC0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7AD62B827B75281009B1BC0 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C7321B6E27A4F097000EBBEA /* CopyFiles */ = {
+		C7AD62B327B75281009B1BC0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C7321B7027A4F097000EBBEA /* BinomialTreeModel01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinomialTreeModel01; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7321B7A27A4F0D3000EBBEA /* BinomialTreeModel01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinomialTreeModel01.cpp; sourceTree = "<group>"; };
+		C7AD62B527B75281009B1BC0 /* BinomialTreeModel01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinomialTreeModel01; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7AD62B827B75281009B1BC0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C7321B6D27A4F097000EBBEA /* Frameworks */ = {
+		C7AD62B227B75281009B1BC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,26 +38,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C7321B6727A4F097000EBBEA = {
+		C7AD62AC27B75281009B1BC0 = {
 			isa = PBXGroup;
 			children = (
-				C7321B7227A4F097000EBBEA /* BinomialTreeModel01 */,
-				C7321B7127A4F097000EBBEA /* Products */,
+				C7AD62B727B75281009B1BC0 /* BinomialTreeModel01 */,
+				C7AD62B627B75281009B1BC0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C7321B7127A4F097000EBBEA /* Products */ = {
+		C7AD62B627B75281009B1BC0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C7321B7027A4F097000EBBEA /* BinomialTreeModel01 */,
+				C7AD62B527B75281009B1BC0 /* BinomialTreeModel01 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C7321B7227A4F097000EBBEA /* BinomialTreeModel01 */ = {
+		C7AD62B727B75281009B1BC0 /* BinomialTreeModel01 */ = {
 			isa = PBXGroup;
 			children = (
-				C7321B7A27A4F0D3000EBBEA /* BinomialTreeModel01.cpp */,
+				C7AD62B827B75281009B1BC0 /* main.cpp */,
 			);
 			path = BinomialTreeModel01;
 			sourceTree = "<group>";
@@ -65,38 +65,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C7321B6F27A4F097000EBBEA /* BinomialTreeModel01 */ = {
+		C7AD62B427B75281009B1BC0 /* BinomialTreeModel01 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7321B7727A4F097000EBBEA /* Build configuration list for PBXNativeTarget "BinomialTreeModel01" */;
+			buildConfigurationList = C7AD62BC27B75281009B1BC0 /* Build configuration list for PBXNativeTarget "BinomialTreeModel01" */;
 			buildPhases = (
-				C7321B6C27A4F097000EBBEA /* Sources */,
-				C7321B6D27A4F097000EBBEA /* Frameworks */,
-				C7321B6E27A4F097000EBBEA /* CopyFiles */,
+				C7AD62B127B75281009B1BC0 /* Sources */,
+				C7AD62B227B75281009B1BC0 /* Frameworks */,
+				C7AD62B327B75281009B1BC0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BinomialTreeModel01;
-			productName = BinomialTreeModel;
-			productReference = C7321B7027A4F097000EBBEA /* BinomialTreeModel01 */;
+			productName = BinomialTreeModel01;
+			productReference = C7AD62B527B75281009B1BC0 /* BinomialTreeModel01 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C7321B6827A4F097000EBBEA /* Project object */ = {
+		C7AD62AD27B75281009B1BC0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					C7321B6F27A4F097000EBBEA = {
+					C7AD62B427B75281009B1BC0 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = C7321B6B27A4F097000EBBEA /* Build configuration list for PBXProject "BinomialTreeModel01" */;
+			buildConfigurationList = C7AD62B027B75281009B1BC0 /* Build configuration list for PBXProject "BinomialTreeModel01" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = C7321B6727A4F097000EBBEA;
-			productRefGroup = C7321B7127A4F097000EBBEA /* Products */;
+			mainGroup = C7AD62AC27B75281009B1BC0;
+			productRefGroup = C7AD62B627B75281009B1BC0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C7321B6F27A4F097000EBBEA /* BinomialTreeModel01 */,
+				C7AD62B427B75281009B1BC0 /* BinomialTreeModel01 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C7321B6C27A4F097000EBBEA /* Sources */ = {
+		C7AD62B127B75281009B1BC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7321B7C27A4F0D3000EBBEA /* BinomialTreeModel01.cpp in Sources */,
+				C7AD62B927B75281009B1BC0 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C7321B7527A4F097000EBBEA /* Debug */ = {
+		C7AD62BA27B75281009B1BC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -185,7 +185,7 @@
 			};
 			name = Debug;
 		};
-		C7321B7627A4F097000EBBEA /* Release */ = {
+		C7AD62BB27B75281009B1BC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,7 +237,7 @@
 			};
 			name = Release;
 		};
-		C7321B7827A4F097000EBBEA /* Debug */ = {
+		C7AD62BD27B75281009B1BC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -245,7 +245,7 @@
 			};
 			name = Debug;
 		};
-		C7321B7927A4F097000EBBEA /* Release */ = {
+		C7AD62BE27B75281009B1BC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -256,25 +256,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C7321B6B27A4F097000EBBEA /* Build configuration list for PBXProject "BinomialTreeModel01" */ = {
+		C7AD62B027B75281009B1BC0 /* Build configuration list for PBXProject "BinomialTreeModel01" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7321B7527A4F097000EBBEA /* Debug */,
-				C7321B7627A4F097000EBBEA /* Release */,
+				C7AD62BA27B75281009B1BC0 /* Debug */,
+				C7AD62BB27B75281009B1BC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7321B7727A4F097000EBBEA /* Build configuration list for PBXNativeTarget "BinomialTreeModel01" */ = {
+		C7AD62BC27B75281009B1BC0 /* Build configuration list for PBXNativeTarget "BinomialTreeModel01" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7321B7827A4F097000EBBEA /* Debug */,
-				C7321B7927A4F097000EBBEA /* Release */,
+				C7AD62BD27B75281009B1BC0 /* Debug */,
+				C7AD62BE27B75281009B1BC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C7321B6827A4F097000EBBEA /* Project object */;
+	rootObject = C7AD62AD27B75281009B1BC0 /* Project object */;
 }
