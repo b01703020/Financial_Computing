@@ -29,7 +29,6 @@ void MySwap_reference(int &iPtrX, int &iPtrY)
 
 int main()
 {
-    
     int iNum1 = 2, iNum2 = -3;
     
     MySwap_pointer(&iNum1, &iNum2);
@@ -38,5 +37,4 @@ int main()
     MySwap_reference(iNum1, iNum2);
     cout << iNum1 << "," << iNum2 <<endl;
     return 0;
-    
 }
