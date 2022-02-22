@@ -27,7 +27,7 @@ class Rectangle
             width = w;
             length = l;
         }
-        
+     
         void set (int w, int l);
     
         int area() //inline
@@ -46,14 +46,17 @@ int main()
 {
     Rectangle rect(3, 5);
     cout << rect.area()<<endl;
-    
+     
     Rectangle r1(4,6);
     r1.set(5,8);
     cout << r1.area()<<endl;
-    
+     
     Rectangle *rp = &r1;
     rp->set(8,10);
     cout << r1.area()<<endl;
+    
+    Rectangle r2;
+    cout << r2.area()<<endl;
     
     return 0;
 }

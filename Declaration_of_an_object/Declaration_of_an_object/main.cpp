@@ -6,10 +6,11 @@
 //
 #include <iostream>
 using namespace std;
+
 class Rectangle
 {
     private:
-        int width; int length;
+        int width,length;
     
     public:
         Rectangle(){ width = 0; length = 0; };

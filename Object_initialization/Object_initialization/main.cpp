@@ -44,7 +44,7 @@ int main()
     //Initialize with copy constructor
     Rectangle r5 = r1;
     cout << r5.area() <<endl;
-    Rectangle r6(r1);
+    Rectangle r6(*r3);
     cout << r6.area() <<endl;
     Rectangle *r7 = new Rectangle(r1);
     cout << r7->area() <<endl;

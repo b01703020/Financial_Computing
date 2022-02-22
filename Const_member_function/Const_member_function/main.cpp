@@ -6,20 +6,21 @@
 //
 #include <iostream>
 using namespace std;
+
 class Time
 {
     private :
-    int hrs, mins, secs ;
+        int hrs, mins, secs;
     
     public :
-    Time(); //default constructor
-    Time(int h, int m, int s);
-    void Set (int h , int m , int s);
-    void Print () const;
+        Time(); //default constructor
+        Time(int h, int m, int s);
+        void Set (int h , int m , int s);
+        void Print() const; //const member function
 };
 
-Time::Time(int h, int m, int s) : hrs(h), mins(m), secs(s) //initialization list
-{}
+Time::Time(int h, int m, int s) : hrs(h), mins(m), secs(s) {} //initialization list
+
 
 void Time::Set(int h , int m , int s)
 {
