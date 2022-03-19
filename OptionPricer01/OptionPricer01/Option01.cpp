@@ -18,7 +18,7 @@ namespace fre
         double q = RiskNeutProb(U, D, R);
         
         // If you are using MAC XCode
-        double Price[N];
+        double Price[N+1];
         // If you use Microsoft Visual Studio 2019
         // double Price[9];
         
