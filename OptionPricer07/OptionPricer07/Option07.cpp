@@ -5,7 +5,6 @@
 //  Created by wu yen sun on 2022/3/18.
 //
 
-#pragma once
 #include "Option07.h"
 #include "BinomialTreeModel02.h"
 #include "BinLattice01.h"
