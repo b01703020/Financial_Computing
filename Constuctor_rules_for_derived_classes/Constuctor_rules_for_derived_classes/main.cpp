@@ -33,3 +33,10 @@ int main()
     C test2(2);
     return 0;
 }
+
+/*
+ A:default
+ B
+ A:parameter
+ C
+ */

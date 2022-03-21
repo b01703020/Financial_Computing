@@ -18,7 +18,6 @@ namespace fre
     {
         if (z > K) return z - K;
         return 0.0;
-        
     }
 
     double OptionCalculation::PriceByCRR(const BinomialTreeModel& Model)
@@ -44,14 +43,12 @@ namespace fre
         }
         
         optionPrice = pPrice[0];
+        
         delete [] pPrice;
         pPrice = nullptr;
+        
         return optionPrice;
     }
-
-
-
-
 }
 
 

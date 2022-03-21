@@ -17,6 +17,7 @@ int main()
     double U = 1.15125, D = 0.86862, R = 1.00545;
     double S0 = 106.00, K = 100.00;
     BinomialTreeModel Model(S0, U, D, R);
+    
     Call* pCall = new Call(N, K);
     OptionCalculation callCalculation(pCall);
     
@@ -24,6 +25,7 @@ int main()
     
     delete pCall;
     pCall = NULL;
+    
     return 0;
 }
 
