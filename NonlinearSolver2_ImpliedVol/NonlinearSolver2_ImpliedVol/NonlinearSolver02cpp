@@ -1,18 +1,18 @@
 //
-//  NonlinearSolver01.cpp
-//  NonlinearSolver01_FunctionPointers
+//  NonlinearSolver02.cpp
+//  NonlinearSolver02_Polymorphism
 //
 //  Created by wu yen sun on 2022/3/27.
 //
 
-#include "Function01.h"
-#include "NonlinearSolver01.h"
+#include "Function02.h"
+#include "NonlinearSolver02.h"
 namespace fre
 {
-    double NonlinearSolver::SolveByBisect(double (*Fct)(double x))
+    double NonlinearSolver::SolveByBisect(Function* Fct)
     {
         double left = LEnd, right = REnd, mid = (left + right) / 2;
-        double y_left = Fct(left) - Tgt, y_mid = Fct(mid) - Tgt;
+        double y_left = Fct->Value(left) - Tgt, y_mid = Fct->Value(mid) - Tgt;
         
         while (mid - left > Acc)
         {
@@ -22,23 +22,23 @@ namespace fre
                 y_left = y_mid;
             }
             else right = mid;
+            
             mid = (left + right) / 2;
-            y_mid = Fct(mid) - Tgt;
+            y_mid = Fct->Value(mid) - Tgt;
         }
         return mid;
     }
 
-    double NonlinearSolver::SolveByNR(double (*Fct)(double x), double (*DFct)(double x))
+    double NonlinearSolver::SolveByNR(Function* Fct)
     {
         double x_prev = Guess;
-        double x_next = x_prev - (Fct(x_prev) - Tgt) / DFct(x_prev);
+        double x_next = x_prev - (Fct->Value(x_prev) - Tgt) / Fct->Deriv(x_prev);
         
         while (x_next - x_prev > Acc || x_prev - x_next > Acc)
         {
             x_prev = x_next;
-            x_next = x_prev - (Fct(x_prev) - Tgt) / DFct(x_prev);
-            
+            x_next = x_prev - (Fct->Value(x_prev) - Tgt) / Fct->Deriv(x_prev);
         }
-            return x_next;
+        return x_next;
     }
 }
