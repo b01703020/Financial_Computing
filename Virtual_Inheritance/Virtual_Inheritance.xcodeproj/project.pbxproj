@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C7B7D5DA27F1240500093274 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7B7D5D927F1240500093274 /* main.cpp */; };
-		C7B7D5E427F1241C00093274 /* Function02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7B7D5E027F1241C00093274 /* Function02.cpp */; };
-		C7B7D5E527F1241C00093274 /* NonlinearSolver02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7B7D5E227F1241C00093274 /* NonlinearSolver02.cpp */; };
+		C7B614262800E9DB00CFD66C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7B614252800E9DB00CFD66C /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C7B7D5D427F1240500093274 /* CopyFiles */ = {
+		C7B614202800E9DB00CFD66C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,16 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C7B7D5D627F1240500093274 /* NonlinearSolver02_Polymorphism */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NonlinearSolver02_Polymorphism; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7B7D5D927F1240500093274 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		C7B7D5E027F1241C00093274 /* Function02.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Function02.cpp; sourceTree = "<group>"; };
-		C7B7D5E127F1241C00093274 /* Function02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Function02.h; sourceTree = "<group>"; };
-		C7B7D5E227F1241C00093274 /* NonlinearSolver02.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = NonlinearSolver02.cpp; sourceTree = "<group>"; };
-		C7B7D5E327F1241C00093274 /* NonlinearSolver02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonlinearSolver02.h; sourceTree = "<group>"; };
+		C7B614222800E9DB00CFD66C /* Virtual_Inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Virtual_Inheritance; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B614252800E9DB00CFD66C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C7B7D5D327F1240500093274 /* Frameworks */ = {
+		C7B6141F2800E9DB00CFD66C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,69 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C7B7D5CD27F1240500093274 = {
+		C7B614192800E9DB00CFD66C = {
 			isa = PBXGroup;
 			children = (
-				C7B7D5D827F1240500093274 /* NonlinearSolver02_Polymorphism */,
-				C7B7D5D727F1240500093274 /* Products */,
+				C7B614242800E9DB00CFD66C /* Virtual_Inheritance */,
+				C7B614232800E9DB00CFD66C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C7B7D5D727F1240500093274 /* Products */ = {
+		C7B614232800E9DB00CFD66C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C7B7D5D627F1240500093274 /* NonlinearSolver02_Polymorphism */,
+				C7B614222800E9DB00CFD66C /* Virtual_Inheritance */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C7B7D5D827F1240500093274 /* NonlinearSolver02_Polymorphism */ = {
+		C7B614242800E9DB00CFD66C /* Virtual_Inheritance */ = {
 			isa = PBXGroup;
 			children = (
-				C7B7D5D927F1240500093274 /* main.cpp */,
-				C7B7D5E127F1241C00093274 /* Function02.h */,
-				C7B7D5E027F1241C00093274 /* Function02.cpp */,
-				C7B7D5E327F1241C00093274 /* NonlinearSolver02.h */,
-				C7B7D5E227F1241C00093274 /* NonlinearSolver02.cpp */,
+				C7B614252800E9DB00CFD66C /* main.cpp */,
 			);
-			path = NonlinearSolver02_Polymorphism;
+			path = Virtual_Inheritance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C7B7D5D527F1240500093274 /* NonlinearSolver02_Polymorphism */ = {
+		C7B614212800E9DB00CFD66C /* Virtual_Inheritance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7B7D5DD27F1240500093274 /* Build configuration list for PBXNativeTarget "NonlinearSolver02_Polymorphism" */;
+			buildConfigurationList = C7B614292800E9DB00CFD66C /* Build configuration list for PBXNativeTarget "Virtual_Inheritance" */;
 			buildPhases = (
-				C7B7D5D227F1240500093274 /* Sources */,
-				C7B7D5D327F1240500093274 /* Frameworks */,
-				C7B7D5D427F1240500093274 /* CopyFiles */,
+				C7B6141E2800E9DB00CFD66C /* Sources */,
+				C7B6141F2800E9DB00CFD66C /* Frameworks */,
+				C7B614202800E9DB00CFD66C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = NonlinearSolver02_Polymorphism;
-			productName = NonlinearSolver02_Polymorphism;
-			productReference = C7B7D5D627F1240500093274 /* NonlinearSolver02_Polymorphism */;
+			name = Virtual_Inheritance;
+			productName = Virtual_Inheritance;
+			productReference = C7B614222800E9DB00CFD66C /* Virtual_Inheritance */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C7B7D5CE27F1240500093274 /* Project object */ = {
+		C7B6141A2800E9DB00CFD66C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					C7B7D5D527F1240500093274 = {
+					C7B614212800E9DB00CFD66C = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
 			};
-			buildConfigurationList = C7B7D5D127F1240500093274 /* Build configuration list for PBXProject "NonlinearSolver02_Polymorphism" */;
+			buildConfigurationList = C7B6141D2800E9DB00CFD66C /* Build configuration list for PBXProject "Virtual_Inheritance" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,31 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = C7B7D5CD27F1240500093274;
-			productRefGroup = C7B7D5D727F1240500093274 /* Products */;
+			mainGroup = C7B614192800E9DB00CFD66C;
+			productRefGroup = C7B614232800E9DB00CFD66C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C7B7D5D527F1240500093274 /* NonlinearSolver02_Polymorphism */,
+				C7B614212800E9DB00CFD66C /* Virtual_Inheritance */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C7B7D5D227F1240500093274 /* Sources */ = {
+		C7B6141E2800E9DB00CFD66C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7B7D5E527F1241C00093274 /* NonlinearSolver02.cpp in Sources */,
-				C7B7D5E427F1241C00093274 /* Function02.cpp in Sources */,
-				C7B7D5DA27F1240500093274 /* main.cpp in Sources */,
+				C7B614262800E9DB00CFD66C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C7B7D5DB27F1240500093274 /* Debug */ = {
+		C7B614272800E9DB00CFD66C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -196,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		C7B7D5DC27F1240500093274 /* Release */ = {
+		C7B614282800E9DB00CFD66C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,7 +235,7 @@
 			};
 			name = Release;
 		};
-		C7B7D5DE27F1240500093274 /* Debug */ = {
+		C7B6142A2800E9DB00CFD66C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -255,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		C7B7D5DF27F1240500093274 /* Release */ = {
+		C7B6142B2800E9DB00CFD66C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -266,25 +254,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C7B7D5D127F1240500093274 /* Build configuration list for PBXProject "NonlinearSolver02_Polymorphism" */ = {
+		C7B6141D2800E9DB00CFD66C /* Build configuration list for PBXProject "Virtual_Inheritance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7B7D5DB27F1240500093274 /* Debug */,
-				C7B7D5DC27F1240500093274 /* Release */,
+				C7B614272800E9DB00CFD66C /* Debug */,
+				C7B614282800E9DB00CFD66C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7B7D5DD27F1240500093274 /* Build configuration list for PBXNativeTarget "NonlinearSolver02_Polymorphism" */ = {
+		C7B614292800E9DB00CFD66C /* Build configuration list for PBXNativeTarget "Virtual_Inheritance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7B7D5DE27F1240500093274 /* Debug */,
-				C7B7D5DF27F1240500093274 /* Release */,
+				C7B6142A2800E9DB00CFD66C /* Debug */,
+				C7B6142B2800E9DB00CFD66C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C7B7D5CE27F1240500093274 /* Project object */;
+	rootObject = C7B6141A2800E9DB00CFD66C /* Project object */;
 }

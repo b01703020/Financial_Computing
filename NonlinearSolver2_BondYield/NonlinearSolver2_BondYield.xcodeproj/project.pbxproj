@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C7B7D5F327F128FA00093274 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7B7D5F227F128FA00093274 /* main.cpp */; };
-		C7B7D5FF27F12DD600093274 /* Function02cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7B7D5FA27F1291400093274 /* Function02cpp */; };
-		C7B7D60027F12DD600093274 /* NonlinearSolver02cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7B7D5F927F1291400093274 /* NonlinearSolver02cpp */; };
+		C7B7D5FF27F12DD600093274 /* Function02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7B7D5FA27F1291400093274 /* Function02.cpp */; };
+		C7B7D60027F12DD600093274 /* NonlinearSolver02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7B7D5F927F1291400093274 /* NonlinearSolver02.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +27,8 @@
 /* Begin PBXFileReference section */
 		C7B7D5EF27F128FA00093274 /* NonlinearSolver2_BondYield */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NonlinearSolver2_BondYield; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B7D5F227F128FA00093274 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		C7B7D5F927F1291400093274 /* NonlinearSolver02cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = NonlinearSolver02cpp; sourceTree = "<group>"; };
-		C7B7D5FA27F1291400093274 /* Function02cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Function02cpp; sourceTree = "<group>"; };
+		C7B7D5F927F1291400093274 /* NonlinearSolver02.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = NonlinearSolver02.cpp; sourceTree = "<group>"; };
+		C7B7D5FA27F1291400093274 /* Function02.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Function02.cpp; sourceTree = "<group>"; };
 		C7B7D5FB27F1291400093274 /* Function02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Function02.h; sourceTree = "<group>"; };
 		C7B7D5FC27F1291400093274 /* NonlinearSolver02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonlinearSolver02.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,9 +65,9 @@
 			children = (
 				C7B7D5F227F128FA00093274 /* main.cpp */,
 				C7B7D5FB27F1291400093274 /* Function02.h */,
-				C7B7D5FA27F1291400093274 /* Function02cpp */,
+				C7B7D5FA27F1291400093274 /* Function02.cpp */,
 				C7B7D5FC27F1291400093274 /* NonlinearSolver02.h */,
-				C7B7D5F927F1291400093274 /* NonlinearSolver02cpp */,
+				C7B7D5F927F1291400093274 /* NonlinearSolver02.cpp */,
 			);
 			path = NonlinearSolver2_BondYield;
 			sourceTree = "<group>";
@@ -129,8 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7B7D5FF27F12DD600093274 /* Function02cpp in Sources */,
-				C7B7D60027F12DD600093274 /* NonlinearSolver02cpp in Sources */,
+				C7B7D5FF27F12DD600093274 /* Function02.cpp in Sources */,
+				C7B7D60027F12DD600093274 /* NonlinearSolver02.cpp in Sources */,
 				C7B7D5F327F128FA00093274 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

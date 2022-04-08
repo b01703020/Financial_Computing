@@ -8,22 +8,15 @@
 #pragma once
 namespace fre
 {
-    class Function
-    {
-        public:
-            virtual double Value(double x) = 0;
-            virtual double Deriv(double x) = 0;
-            virtual ~Function() {}
-    };
 
-    class F1 : public Function
+    class F1
     {
         public:
             double Value(double x);
             double Deriv(double x);
     };
     
-    class F2 : public Function
+    class F2
     {
         private:
             double a; //any real number

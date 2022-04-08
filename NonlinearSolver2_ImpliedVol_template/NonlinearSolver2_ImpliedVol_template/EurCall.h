@@ -6,7 +6,7 @@
 //
 
 #pragma once
-#include "NonlinearSolver02.h"
+#include "NonlinearSolver03.h"
 
 namespace fre
 {
@@ -21,8 +21,8 @@ namespace fre
             double PriceByBSFormula(double S0, double sigma, double r);
             double VegaByBSFormula(double S0, double sigma, double r);
     };
-
-    class Intermediary : public EurCall, public Function
+    
+    class Intermediary : public EurCall
     {
         private:
             double S0, r;

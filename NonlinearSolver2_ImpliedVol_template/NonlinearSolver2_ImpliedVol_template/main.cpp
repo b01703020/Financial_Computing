@@ -1,14 +1,14 @@
 //
 //  main.cpp
-//  NonlinearSolver2_ImpliedVol
+//  NonlinearSolver2_ImpliedVol_template
 //
 //  Created by wu yen sun on 2022/4/8.
 //
 
 #include <iostream>
 #include <iomanip>
-#include "Function02.h"
-#include "NonlinearSolver02.h"
+#include "Function03.h"
+#include "NonlinearSolver03.h"
 #include "EurCall.h"
 using namespace std;
 using namespace fre;
@@ -26,7 +26,7 @@ int main()
     double Tgt = 12.56;
     double Guess = 0.23;
     
-    NonlinearSolver solver(Tgt, LEnd, REnd, Acc, Guess);
+    NonlinearSolver<Intermediary> solver(Tgt, LEnd, REnd, Acc, Guess);
     cout << "Implied Volatility by Bisect: " << fixed << setprecision(4)
     << solver.SolveByBisect(&Call) << endl;
     cout << "Implied Volatility by Newton-Raphson: " << fixed << setprecision(4)
@@ -39,4 +39,3 @@ int main()
 Implied Volatility by Bisect: 0.1784
 Implied Volatility by Newton-Raphson: 0.1784
 */
-
