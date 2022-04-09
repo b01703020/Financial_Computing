@@ -43,6 +43,7 @@ namespace fre
             void Display()
             {
                 cout << setiosflags(ios::fixed) << setprecision(3);
+                // cout << fixed << setprecision(3);
                 for (int n = 0; n <= N; n++)
                 {
                     for (int i = 0; i <= n; i++)

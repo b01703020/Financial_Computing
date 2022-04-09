@@ -32,7 +32,8 @@ namespace fre
                 Lattice.resize(N + 1);
                 for (int n = 0; n <= N; n++) Lattice[n].resize(n + 1);
             }
-            void SetNode(int n, int i, Type x){ Lattice[n][i] = x; }
+            //void SetNode(int n, int i, Type x){ Lattice[n][i] = x; }
+        void SetNode(int n, int i, Type x);
             Type GetNode(int n, int i){ return Lattice[n][i]; }
             void Display()
             {
@@ -45,4 +46,8 @@ namespace fre
                 
             }
         };
+
+    template<typename Type>
+    void BinLattice<Type>::SetNode(int n, int i, Type x){Lattice[n][i] = x;}
+
 }

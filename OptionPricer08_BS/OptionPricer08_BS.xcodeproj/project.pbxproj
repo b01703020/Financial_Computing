@@ -64,12 +64,12 @@
 		C7DC2A9E27E6992B001FBC8B /* OptionPricer08_BS */ = {
 			isa = PBXGroup;
 			children = (
+				C7DC2A9F27E6992B001FBC8B /* main.cpp */,
 				C7DC2AA627E69969001FBC8B /* BinLattice02.h */,
 				C7DC2AA727E699A9001FBC8B /* BinomialTreeModel02.h */,
 				C7DC2AA827E699C4001FBC8B /* BinomialTreeModel02.cpp */,
 				C7DC2AAA27E699F1001FBC8B /* Option08.h */,
 				C7DC2AAB27E69A0F001FBC8B /* Option08.cpp */,
-				C7DC2A9F27E6992B001FBC8B /* main.cpp */,
 			);
 			path = OptionPricer08_BS;
 			sourceTree = "<group>";
