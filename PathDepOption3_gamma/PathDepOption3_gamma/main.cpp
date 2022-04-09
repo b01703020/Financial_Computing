@@ -29,9 +29,9 @@ int main()
 }
 
 /*
- Arithmetic Asian Call by direct Monte Carlo = 1.43662
- Pricing Error = 0.0120353
- delta = 0.528488
- gamma = 0.10513
- Program ended with exit code: 0
+Arithmetic Asian Call by direct Monte Carlo = 1.44243
+Pricing Error = 0.0121499
+delta = 0.530547
+gamma = 0.123106
+Program ended with exit code: 0
  */
