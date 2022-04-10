@@ -8,7 +8,7 @@
 #include <iostream>
 using namespace std;
 
-void Foo(int a, int& b)
+void Foo(int a, int &b)
 {
     a++;
     b++;
