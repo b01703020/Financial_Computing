@@ -37,7 +37,7 @@ int main()
     cout << r1.area() <<endl;
     r1.set(60, 80);
     cout << r1.area() <<endl;
-    Rectangle *r3 = new Rectangle();
+    Rectangle *r3 = new Rectangle;
     cout << r3->area() <<endl;
     
     

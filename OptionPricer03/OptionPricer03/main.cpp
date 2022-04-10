@@ -30,9 +30,10 @@ int main()
     
     optionPrice = PriceByCRR(BinModel, N, K, PutPayoff);
     cout << "European Put option price = " << fixed << setprecision(2) << optionPrice[0] << endl;
-    delete [] optionPrice;
     
+    delete [] optionPrice;
     optionPrice = NULL;
+    
     return 0;
 }
 
