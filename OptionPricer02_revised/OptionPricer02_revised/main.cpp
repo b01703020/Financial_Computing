@@ -14,8 +14,8 @@ using namespace fre;
 int main()
 {
     double S0 = 0.0, U = 0.0, D = 0.0, R = 0.0;
-    if (GetInputData(S0, U, D, R) != 0)
-        return -1;
+    if (GetInputData(S0, U, D, R) != 0) return -1;
+    
     double K = 0.0; //strike price
     int N = 0; //steps to expiry
     

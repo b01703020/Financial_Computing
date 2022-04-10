@@ -15,15 +15,13 @@ namespace fre
 {
     int GetInputData(int& N, double& K)
     {
-        cout << "Enter steps to expiry N: ";
-        cin >> N;
-        cout << "Enter strike price K: ";
-        cin >> K;
+        cout << "Enter steps to expiry N: "; cin >> N;
+        cout << "Enter strike price K: "; cin >> K;
         cout << endl;
         return 0;
     }
 
-    double * PriceByCRR(double S0, double U, double D, double R, int N, double K, double (*Payoff)(double z, double K) )
+    double * PriceByCRR(double S0, double U, double D, double R, int N, double K, double (*Payoff)(double, double) )
     {
         double q = RiskNeutProb(U, D, R);
         double *Price = new double[N+1];

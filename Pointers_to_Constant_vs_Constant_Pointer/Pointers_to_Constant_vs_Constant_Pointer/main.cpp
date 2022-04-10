@@ -14,7 +14,7 @@ int main(int argc, const char * argv[])
     // cannot change the value that is pointed at.
     // But the pointer variable itself (the address pointed by the pointer) is changeable.
     const double dTaxRates[] = {0.65, 0.8, 0.75};
-    const double *rates = dTaxRates;
+    const double* rates = dTaxRates;
     
     // Constant Pointer
     // address in pointer cannot change once pointer is initialized.

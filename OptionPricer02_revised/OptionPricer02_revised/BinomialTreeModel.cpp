@@ -28,14 +28,11 @@ namespace fre
     int GetInputData(double& S0, double& U, double& D, double& R)
     {
         //entering data
-        cout << "Enter S0: ";
-        cin >> S0;
-        cout << "Enter U: ";
-        cin >> U;
-        cout << "Enter D: ";
-        cin >> D;
-        cout << "Enter R: ";
-        cin >> R; cout << endl;
+        cout << "Enter S0: "; cin >> S0;
+        cout << "Enter U: "; cin >> U;
+        cout << "Enter D: "; cin >> D;
+        cout << "Enter R: "; cin >> R;
+        cout << endl;
         
         //making sure that S0>0, U>D>0, R>0
         if (S0 <= 0.0 || U <= 0.0 || D <= 0.0 || U <= D || R <= 0.0)

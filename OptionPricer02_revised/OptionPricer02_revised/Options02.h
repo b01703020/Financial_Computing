@@ -12,7 +12,7 @@ namespace fre
     int GetInputData(int& N, double& K);
 
     //pricing European option
-    double * PriceByCRR(double S0, double U, double D, double R, int N, double K, double (*Payoff)(double z, double K));
+    double * PriceByCRR(double S0, double U, double D, double R, int N, double K, double (*Payoff)(double, double));
     
     //computing Call Payoff
     double CallPayoff(double z, double K);
